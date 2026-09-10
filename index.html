@@ -704,7 +704,13 @@
           </tr>
           <tr>
             <td class="plbl" contenteditable="true">Account Name</td>
-            <td><input type="text" id="accName" value="Aatera Loop Battery Recycling LLC SOC"/></td>
+            <td><input type="text" id="accName" value="Aatera Loop Battery Recycling LLC SOC"/>
+            <td>
+    <textarea id="accountName"
+        style="width: 100%; min-height: 35px; box-sizing: border-box; resize: none; overflow: hidden;"
+        oninput="this.style.height='auto'; this.style.height=this.scrollHeight+'px';"></textarea>
+</td>
+            </td>
             <td class="no-print" style="border:none;width:28px;padding:2px;"><button class="rm-row-inline" onclick="removePayRow(this)" title="Remove row">&#x2715;</button></td>
           </tr>
           <tr>
